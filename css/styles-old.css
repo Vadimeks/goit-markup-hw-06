@@ -1,79 +1,12 @@
 /* Third Section - Our Team  */
 .team-section {
-  background-color: #f4f4fd;
   padding: 120px 0;
 }
-/* 3rd section H2 styles */
 
-.header-two {
-  font-weight: 700;
-  font-size: 36px;
-  color: #2e2f42;
-  line-height: 1.11; /* Высота строки равна высоте текста */
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 72px;
-  margin-top: 0;
-}
-/* 3rd section UL styles */
-.team-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
 .team-items {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.team-description {
-  padding: 32px 0;
-}
-.team-description .header-three {
-  text-align: center;
-  margin-bottom: 8px;
-}
-.team-description .text {
-  text-align: center;
-}
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
-}
-.icons {
-  width: 40px;
-  height: 40px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-icons {
-  background-color: #4d5ae5;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.link-icons:hover,
-.link-icons:focus {
-  background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-social {
-  fill: #f4f4fd;
-}
 /*4th Section - Portfolio */
 
 .portfolio-section {
