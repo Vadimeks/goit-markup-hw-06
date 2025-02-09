@@ -84,7 +84,6 @@ button {
 .nav-address {
   display: none;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -301,7 +300,7 @@ button {
 .mobile-nav-items {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
@@ -342,7 +341,6 @@ button {
 .icons {
   width: 40px;
   height: 40px;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-icons {
